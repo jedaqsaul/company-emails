@@ -30,4 +30,18 @@
 
 # print(company_email("John Doe, Peter Parker, Mary Jane Watson-Parker, Aquila Jedidiah Wafula"))
 
+def solution(S, C):
+    #Convert company name to lowercase once
 
+    company=C.lower()
+
+
+    # split names by ", "
+
+    names=S.split(', ')
+
+    # dictionary to count occurences of emails prefixes
+    email_counts={}
+
+    # list to collect final formatted entries
+    result=[]
