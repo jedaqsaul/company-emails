@@ -102,7 +102,7 @@ def solution(S, C):
 print(solution("John Doe, Peter Parker, Mary Jane Watson-Parker, James Doe, John Elvis Doe, Jane Doe, Penny Parker", "Moringa"))
 
 
-# STEPS TAKEN
+# -----STEPS TAKEN----
 
 # prepare the company name
 # split the input names

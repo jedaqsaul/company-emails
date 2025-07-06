@@ -49,14 +49,18 @@
 
 # print(valid_names("John Doe, Peter Parker, Mary Jane Watson-Parker"))
 
-name="John Doe"
-parts = name.split()
-print(parts)
+# name="John Doe"
+# parts = name.split()
+# print(parts)
 
 
-first_letter=[]
-for part in parts:
-    first_letter.append(part[0].upper())
-print(first_letter)
-joined=''.join(first_letter)
-print(joined)
+# first_letter=[]
+# for part in parts:
+#     first_letter.append(part[0].upper())
+# print(first_letter)
+# joined=''.join(first_letter)
+# print(joined)
+email_count={}
+
+prefix="jdoe"
+
